@@ -1,5 +1,4 @@
 /* 
-
 ********** Fibonacci Sequence **********
 Write a function fibonacciSequence that accepts a number as an argument. 
 The function should return an array representing the fibonacci sequence up to the 
@@ -10,7 +9,7 @@ we take the sum of the previous two numbers of the sequence. */
 
 // Your code here
 function fibonacciSequence(maxLength) {
-    
+
     let arr = [1, 1];
     let i = 1;
     
