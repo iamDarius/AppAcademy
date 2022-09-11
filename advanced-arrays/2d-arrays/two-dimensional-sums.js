@@ -1,3 +1,8 @@
+/* Two Dimensional Sum
+Write a function twoDimensionalSum(arr) 
+that takes in a 2D array of numbers and returns the total sum of all numbers.*/
+
+
 // your code here
 function twoDimensionalSum(arr) {
     let sum = 0;
