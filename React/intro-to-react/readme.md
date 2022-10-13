@@ -12,3 +12,7 @@ Things that REACT does not do:
 
 It ONLY **dynamically renders stuff into the DOM**.
 
+
+** You cannot return undefined from a function component. Try using `null` if you need to return nothing.
+
+** DO NOT use hooks inside of loops or if statements
