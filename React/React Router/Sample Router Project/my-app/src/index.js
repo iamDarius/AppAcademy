@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Users from './components/Users';
+import Profile from './components/Profile';
 
 const Root = () => {
     return (
@@ -14,6 +15,9 @@ const Root = () => {
                 </Route>
                 <Route path="/users">
                     <Users />
+                </Route>
+                <Route path="/users/:userId">
+                    <Profile />
                 </Route>
             </div>
         </BrowserRouter>
