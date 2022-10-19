@@ -41,4 +41,12 @@ app.get('/artists', (req, res) => {
     res.send(artists);
 });
 
+// POST - Creates new artist 
+
+app.post('/artists', (req, res) => {
+  let newArtist = { name: "Led Zeppelin" };
+  const updatedArtist =  addArtist(newArtist);
+  res.send(updatedArtist);
+})
+
 app.listen(port, () => console.log('Server is listening on port', port));
