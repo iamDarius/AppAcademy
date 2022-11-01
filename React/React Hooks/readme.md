@@ -53,3 +53,9 @@ What does useEffect return? Nothing itself. However, if your function has an asy
 3. Timers
 4. Directly changing the DOM
 5. Updating based on state or props
+
+        useEffect(() => {
+
+        }, [/*dependency array */]) // if this optional array is left empty, useEffect will ONLY run once
+
+** Don't use async with useEffect. Use it inside of the callback
