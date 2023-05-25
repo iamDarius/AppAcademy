@@ -1,4 +1,4 @@
-
+/* Problem: Define a function isPrime(number) that returns true if number is prime. Otherwise, false. A number is prime if it is only divisible by 1 and itself. */
 function leastCommonMultiple(num1, num2) {
     let maxNum = num1 * num2;
     let i = 1;
